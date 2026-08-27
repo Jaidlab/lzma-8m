@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:jaidlab/lzma-8m.git"
+    "url": "git+https://github.com/jaidlab/lzma-8m.git"
   },
   "scripts": {
     "test": "bun test --max-concurrency 1"
