@@ -16,7 +16,7 @@
     "url": "git+https://github.com/jaidlab/lzma-8m.git"
   },
   "scripts": {
-    "test": "bun test --max-concurrency 1"
+    "test": "bun test --max-concurrency 1 ./test"
   },
   "devDependencies": {
     "bun-types": "^1.4.0",
