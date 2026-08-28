@@ -1,0 +1,22 @@
+{
+  "name": "pack-lzma",
+  "version": "0.1.0",
+  "type": "module",
+  "funding": "https://github.com/sponsors/Jaid",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaidlab/lzma-8m.git",
+    "directory": "packages/pack-lzma"
+  },
+  "license": "MIT",
+  "main": "src/main.ts",
+  "scripts": {
+    "test": "bun test --max-concurrency 1 ./test"
+  },
+  "exports": {
+    ".": "./src/main.ts"
+  },
+  "dependencies": {
+    "unpack-lzma": "workspace:*"
+  }
+}

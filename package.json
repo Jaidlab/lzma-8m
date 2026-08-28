@@ -26,5 +26,12 @@
     "typescript": "^7.0.2"
   },
   "funding": "https://github.com/sponsors/Jaid",
-  "license": "MIT"
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "pack-lzma": "workspace:*",
+    "unpack-lzma": "workspace:*"
+  }
 }

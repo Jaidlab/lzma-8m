@@ -1,0 +1,20 @@
+{
+  "name": "unpack-lzma",
+  "version": "0.1.0",
+  "type": "module",
+  "funding": "https://github.com/sponsors/Jaid",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaidlab/lzma-8m.git",
+    "directory": "packages/unpack-lzma"
+  },
+  "license": "MIT",
+  "main": "src/main.ts",
+  "scripts": {
+    "test": "bun test --max-concurrency 1 ./test"
+  },
+  "exports": {
+    ".": "./src/main.ts",
+    "./constants": "./src/constants.ts"
+  }
+}
